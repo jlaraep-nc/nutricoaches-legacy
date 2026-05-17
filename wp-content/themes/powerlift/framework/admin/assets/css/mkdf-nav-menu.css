@@ -1,0 +1,14 @@
+/*used on admin menus page*/
+.description-thin-custom {
+	height: auto;
+}
+
+.description-thin-custom.mkdf-featured-icon-holder {
+	clear: both;
+}
+
+.menu-item-handle .spinner {
+    position: absolute;
+    left: -25px;
+    top: 9px;
+}

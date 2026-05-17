@@ -1,0 +1,107 @@
+/* ==========================================================================
+   Author Info widget style - begin
+   ========================================================================== */
+.mkdf-author-info-widget {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.mkdf-author-info-widget .mkdf-aiw-image {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.mkdf-author-info-widget .mkdf-aiw-image img {
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-author-info-widget .mkdf-aiw-image img {
+    margin: initial;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-author-info-widget .mkdf-aiw-image img {
+    width: 100%;
+  }
+}
+
+.mkdf-author-info-widget .mkdf-aiw-title {
+  margin: 28px 0 0;
+}
+
+.mkdf-author-info-widget .mkdf-author-info-holder {
+  background-color: #000;
+  color: #fff;
+  padding: 6px 0 19px 16px;
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: 0 top;
+  -ms-transform-origin: 0 top;
+  transform-origin: 0 top;
+  display: block;
+  top: 0;
+  left: 100%;
+  width: 77%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-author-info-widget .mkdf-author-info-holder {
+    left: 39%;
+    width: 34%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mkdf-author-info-widget .mkdf-author-info-holder {
+    left: 50%;
+    width: 41%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-author-info-widget .mkdf-author-info-holder {
+    left: 100%;
+    width: 80%;
+  }
+}
+
+.mkdf-author-info-widget .mkdf-author-info-holder .mkdf-author-info-position {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 2px;
+  letter-spacing: .2em;
+}
+
+.mkdf-author-info-widget .mkdf-author-info-holder .mkdf-author-info-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.mkdf-author-info-widget .mkdf-aiw-text {
+  display: block;
+  margin: 20px 0 0;
+}
+
+/* ==========================================================================
+   Author Info widget style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=author-info-widget-map.css.map */

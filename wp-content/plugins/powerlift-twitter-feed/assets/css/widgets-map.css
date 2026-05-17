@@ -1,0 +1,104 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* ==========================================================================
+   Widgets styles
+   ========================================================================== */
+/* ==========================================================================
+   Twitter widget style - begin
+   ========================================================================== */
+.widget.widget_mkdf_twitter_widget {
+  margin: 0 0 20px;
+}
+
+.widget.widget_mkdf_twitter_widget .mkdf-twitter-widget {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.widget.widget_mkdf_twitter_widget .mkdf-twitter-widget li {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.widget.widget_mkdf_twitter_widget .mkdf-twitter-widget li:not(:last-child) {
+  margin: 0 0 22px;
+}
+
+.widget.widget_mkdf_twitter_widget .mkdf-twitter-widget li .mkdf-twitter-icon {
+  font-size: 18px;
+  color: #000;
+}
+
+.widget.widget_mkdf_twitter_widget .mkdf-twitter-widget li .mkdf-tweet-text {
+  position: relative;
+}
+
+.widget.widget_mkdf_twitter_widget .mkdf-twitter-widget li .mkdf-tweet-text span {
+  color: #7b7b7b;
+}
+
+.widget.widget_mkdf_twitter_widget .mkdf-twitter-widget li .mkdf-tweet-text a {
+  position: relative;
+  color: #7b7b7b;
+}
+
+.widget.widget_mkdf_twitter_widget .mkdf-twitter-widget li .mkdf-tweet-text a:hover {
+  color: #000;
+}
+
+.widget.widget_mkdf_twitter_widget .mkdf-twitter-widget li .mkdf-tweet-text a.mkdf-tweet-time {
+  display: block;
+}
+
+.widget.widget_mkdf_twitter_widget .mkdf-twitter-widget li .mkdf-tweet-text a.mkdf-tweet-time span {
+  margin: 0 2px 0 0;
+}
+
+.widget.widget_mkdf_twitter_widget .mkdf-twitter-widget.mkdf-twitter-standard li .mkdf-twitter-icon {
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.widget.widget_mkdf_twitter_widget .mkdf-twitter-widget.mkdf-twitter-standard li .mkdf-tweet-text {
+  padding: 0 0 0 40px;
+}
+
+.widget.widget_mkdf_twitter_widget .mkdf-twitter-widget.mkdf-twitter-slider {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0 40px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.widget.widget_mkdf_twitter_widget .mkdf-twitter-widget.mkdf-twitter-slider li {
+  overflow: hidden;
+}
+
+.widget.widget_mkdf_twitter_widget .mkdf-twitter-widget.mkdf-twitter-slider li .mkdf-tweet-text a.mkdf-tweet-time {
+  margin: 21px 0 0;
+}
+
+.widget.widget_mkdf_twitter_widget .mkdf-twitter-widget.mkdf-twitter-slider .owl-nav .owl-prev {
+  left: 0;
+}
+
+.widget.widget_mkdf_twitter_widget .mkdf-twitter-widget.mkdf-twitter-slider .owl-nav .owl-next {
+  right: 0;
+}
+
+/* ==========================================================================
+   Twitter widget style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../../../../plugins/powerlift-twitter-feed/assets/css/widgets-map.css.map */

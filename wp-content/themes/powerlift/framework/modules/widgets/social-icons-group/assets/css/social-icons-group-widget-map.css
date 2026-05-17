@@ -1,0 +1,82 @@
+/* ==========================================================================
+   Social Icons Group widget style - begin
+   ========================================================================== */
+.mkdf-social-icons-group-widget.mkdf-square-icons .mkdf-social-icon-widget-holder {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  margin: 0 7px;
+  font-size: 17px;
+  color: #fff;
+  background-color: #000;
+}
+
+.mkdf-social-icons-group-widget.mkdf-square-icons .mkdf-social-icon-widget-holder:hover {
+  color: #000;
+  background-color: #000;
+}
+
+.mkdf-social-icons-group-widget.mkdf-square-icons .mkdf-social-icon-widget-holder .mkdf-social-icon-widget {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.mkdf-social-icons-group-widget.mkdf-square-icons.mkdf-light-skin .mkdf-social-icon-widget-holder {
+  color: #000;
+  background-color: #fff;
+}
+
+.mkdf-social-icons-group-widget.mkdf-square-icons.mkdf-light-skin .mkdf-social-icon-widget-holder:hover {
+  color: #000;
+  background-color: #000;
+}
+
+.mkdf-social-icons-group-widget .mkdf-social-icon-widget-holder {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+  text-align: center;
+}
+
+.mkdf-social-icons-group-widget .mkdf-social-icon-widget-holder:first-child {
+  margin-left: 0;
+}
+
+.mkdf-social-icons-group-widget .mkdf-social-icon-widget-holder:last-child {
+  margin-right: 0;
+}
+
+.mkdf-social-icons-group-widget.mkdf-advanced-hover-type .mkdf-social-icon-widget-holder {
+  position: relative;
+}
+
+.mkdf-social-icons-group-widget.mkdf-advanced-hover-type .mkdf-social-icon-widget-holder .mkdf-social-icon-widget {
+  -webkit-transition: opacity 0.2s ease;
+  -o-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.mkdf-social-icons-group-widget.mkdf-advanced-hover-type .mkdf-social-icon-widget-holder .mkdf-social-icon-widget.mkdf-social-icon-widget-alt {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.mkdf-social-icons-group-widget.mkdf-advanced-hover-type .mkdf-social-icon-widget-holder:hover .mkdf-social-icon-widget {
+  opacity: 0;
+}
+
+.mkdf-social-icons-group-widget.mkdf-advanced-hover-type .mkdf-social-icon-widget-holder:hover .mkdf-social-icon-widget-alt {
+  opacity: 1;
+}
+
+/* ==========================================================================
+   Social Icons Group widget style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=social-icons-group-widget-map.css.map */

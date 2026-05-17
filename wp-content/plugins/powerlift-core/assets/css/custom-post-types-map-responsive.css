@@ -1,0 +1,68 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* ==========================================================================
+   Custom Post Types responsive styles
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Single page responsive style - begin
+   ========================================================================== */
+.mkdf-portfolio-single-holder .mkdf-ps-image-holder.mkdf-ps-gallery-images {
+  /***** Columns Layout - end *****/
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-portfolio-single-holder .mkdf-ps-image-holder.mkdf-ps-gallery-images .mkdf-ps-image {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-portfolio-single-holder .mkdf-ps-small .mkdf-ps-info-holder {
+    margin: 70px 0 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-portfolio-single-holder .mkdf-ps-info-holder {
+    margin: 30px 0 0 !important;
+  }
+}
+
+/* ==========================================================================
+   Portfolio Single page responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio vertical loop shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 480px) {
+  .mkdf-portfolio-vertical-loop-holder .mkdf-pvl-navigation-holder {
+    height: 34px;
+  }
+  .mkdf-portfolio-vertical-loop-holder article .mkdf-pvli-content-holder .mkdf-pvli-image-holder .mkdf-pvli-image-inner .mkdf-pvli-image-title .mkdf-pvli-image-title-inner .mkdf-pvli-title {
+    font-size: 48px;
+  }
+  .mkdf-portfolio-vertical-loop-holder article.next-item .mkdf-pvli-content-holder .mkdf-pvli-background-text {
+    font-size: 140px;
+  }
+}
+
+/* ==========================================================================
+   Portfolio vertical loop shortcode responsive style - end
+   ========================================================================== */
+@media only screen and (max-width: 680px) {
+  .mkdf-testimonials-holder.mkdf-testimonials-image-pagination .mkdf-testimonial-text {
+    width: 100% !important;
+  }
+  .mkdf-testimonials-holder.mkdf-testimonials-image-pagination .mkdf-testimonials-image-pagination-inner {
+    padding: 50% 10px 0 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .mkdf-testimonials-holder.mkdf-testimonials-image-pagination .mkdf-testimonials-image-pagination-inner .mkdf-testimonial-text {
+    font-size: 15px;
+    line-height: 27px;
+  }
+}
+
+/*# sourceMappingURL=../../../../plugins/powerlift-core/assets/css/custom-post-types-map-responsive.css.map */

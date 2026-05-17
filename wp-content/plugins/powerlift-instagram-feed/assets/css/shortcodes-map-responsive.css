@@ -1,0 +1,73 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* ==========================================================================
+   Shortcodes responsive styles
+   ========================================================================== */
+@media only screen and (max-width: 1280px) {
+  .mkdf-instagram-list-holder.mkdf-il-four-columns .mkdf-il-item {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1025px) {
+  .mkdf-instagram-list-holder.mkdf-il-four-columns .mkdf-il-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .mkdf-instagram-list-holder.mkdf-il-five-columns .mkdf-il-item {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1025px) {
+  .mkdf-instagram-list-holder.mkdf-il-five-columns .mkdf-il-item:nth-child(3n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-instagram-list-holder.mkdf-il-three-columns .mkdf-il-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .mkdf-instagram-list-holder.mkdf-il-three-columns .mkdf-il-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-instagram-list-holder.mkdf-il-four-columns .mkdf-il-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .mkdf-instagram-list-holder.mkdf-il-four-columns .mkdf-il-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-instagram-list-holder.mkdf-il-five-columns .mkdf-il-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 681px) {
+  .mkdf-instagram-list-holder.mkdf-il-five-columns .mkdf-il-item:nth-child(2n+1) {
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-instagram-list-holder .mkdf-il-item {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=../../../../plugins/powerlift-instagram-feed/assets/css/shortcodes-map-responsive.css.map */

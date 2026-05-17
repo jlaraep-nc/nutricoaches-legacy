@@ -1,0 +1,71 @@
+/* ==========================================================================
+   Title responsive styles - begin
+   ========================================================================== */
+/* ==========================================================================
+   Title responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-title-holder:not(.mkdf-bg-responsive-disabled).mkdf-has-bg-image {
+    height: auto !important;
+    background-image: none !important;
+  }
+  .mkdf-title-holder:not(.mkdf-bg-responsive-disabled).mkdf-has-bg-image .mkdf-title-image {
+    display: block;
+  }
+  .mkdf-title-holder:not(.mkdf-bg-responsive-disabled).mkdf-has-bg-image .mkdf-title-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 100% !important;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .mkdf-title-holder:not(.mkdf-bg-responsive-disabled).mkdf-title-va-header-bottom {
+    height: auto !important;
+  }
+  .mkdf-title-holder:not(.mkdf-bg-responsive-disabled).mkdf-title-va-header-bottom .mkdf-title-wrapper {
+    padding-top: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   Title responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Centered Title type responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-title-holder.mkdf-centered-type .mkdf-page-subtitle {
+    padding: 0 !important;
+    font-weight: 400;
+  }
+}
+
+/* ==========================================================================
+   Centered Title type responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Standard With Breadcrumbs Title type responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-title-holder.mkdf-standard-with-breadcrumbs-type .mkdf-title-info,
+  .mkdf-title-holder.mkdf-standard-with-breadcrumbs-type .mkdf-breadcrumbs-info {
+    display: block;
+    width: 100%;
+  }
+  .mkdf-title-holder.mkdf-standard-with-breadcrumbs-type .mkdf-breadcrumbs-info {
+    margin: 10px 0 0;
+    text-align: initial;
+    white-space: inherit;
+  }
+}
+
+/* ==========================================================================
+   Standard With Breadcrumbs Title type responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Title responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=title-map-responsive.css.map */

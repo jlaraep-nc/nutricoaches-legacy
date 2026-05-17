@@ -1,0 +1,33 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* ==========================================================================
+   Shortcodes styles
+   ========================================================================== */
+.mkdf-instagram-list-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  clear: both;
+}
+
+.mkdf-instagram-list-holder:not(.mkdf-il-one-column) .mkdf-il-item {
+  float: left;
+}
+
+.mkdf-instagram-list-holder .mkdf-instagram-carousel {
+  margin: 0 !important;
+}
+
+.mkdf-instagram-list-holder .mkdf-il-item {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=../../../../plugins/powerlift-instagram-feed/assets/css/shortcodes-map.css.map */

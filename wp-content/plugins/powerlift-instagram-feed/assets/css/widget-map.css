@@ -1,0 +1,166 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* ==========================================================================
+   Widgets styles
+   ========================================================================== */
+/* ==========================================================================
+   Instagram widget style - begin
+   ========================================================================== */
+aside.mkdf-sidebar .widget.widget_mkdf_instagram_widget .mkdf-widget-title,
+.wpb_widgetised_column .widget.widget_mkdf_instagram_widget .mkdf-widget-title {
+  margin: 0 0 33px;
+}
+
+.mkdf-instagram-feed {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mkdf-instagram-feed li {
+  float: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none !important;
+}
+
+.mkdf-instagram-feed li a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.mkdf-instagram-feed li a .mkdf-instagram-widget-hover-icon {
+  display: block;
+  background: #000;
+  height: 37px;
+  width: 37px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.mkdf-instagram-feed li a .mkdf-instagram-widget-hover-icon svg {
+  height: 65px;
+  width: 65px;
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  transition: .2s;
+}
+
+.mkdf-instagram-feed li a .mkdf-instagram-widget-hover-icon svg polygon {
+  stroke: #fff;
+}
+
+.mkdf-instagram-feed li a .mkdf-instagram-icon {
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+}
+
+.mkdf-instagram-feed li a:hover .mkdf-instagram-icon {
+  opacity: 1;
+}
+
+.mkdf-instagram-feed li a:hover svg {
+  -webkit-transform: scale(0.7) translate3d(3px, -3px, 0);
+  transform: scale(0.7) translate3d(3px, -3px, 0);
+  -webkit-transition: .2s .1s;
+  -o-transition: .2s .1s;
+  transition: .2s .1s;
+}
+
+.mkdf-instagram-feed li img {
+  width: 100%;
+  display: block;
+}
+
+.mkdf-instagram-feed.mkdf-instagram-gallery.mkdf-no-space {
+  margin: 0;
+}
+
+.mkdf-instagram-feed.mkdf-instagram-gallery.mkdf-no-space li {
+  padding: 0 0px;
+  margin: 0 0 0px;
+}
+
+.mkdf-instagram-feed.mkdf-instagram-gallery.mkdf-tiny-space {
+  margin: 0 -5px -10px;
+}
+
+.mkdf-instagram-feed.mkdf-instagram-gallery.mkdf-tiny-space li {
+  padding: 0 5px;
+  margin: 0 0 10px;
+}
+
+.mkdf-instagram-feed.mkdf-instagram-gallery.mkdf-small-space {
+  margin: 0 -10px -20px;
+}
+
+.mkdf-instagram-feed.mkdf-instagram-gallery.mkdf-small-space li {
+  padding: 0 10px;
+  margin: 0 0 20px;
+}
+
+.mkdf-instagram-feed.mkdf-instagram-gallery.mkdf-normal-space {
+  margin: 0 -15px -30px;
+}
+
+.mkdf-instagram-feed.mkdf-instagram-gallery.mkdf-normal-space li {
+  padding: 0 15px;
+  margin: 0 0 30px;
+}
+
+.mkdf-instagram-feed.mkdf-instagram-gallery.mkdf-col-2 li {
+  width: 50%;
+}
+
+.mkdf-instagram-feed.mkdf-instagram-gallery.mkdf-col-3 li {
+  width: 33.33333%;
+}
+
+.mkdf-instagram-feed.mkdf-instagram-gallery.mkdf-col-4 li {
+  width: 25%;
+}
+
+.mkdf-instagram-feed.mkdf-instagram-gallery.mkdf-col-6 li {
+  width: 16.66667%;
+}
+
+.mkdf-instagram-feed.mkdf-instagram-gallery.mkdf-col-9 li {
+  width: 11.11111%;
+}
+
+.mkdf-instagram-feed.mkdf-instagram-carousel .owl-item.active li {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+}
+
+.mkdf-instagram-feed.mkdf-instagram-carousel li {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mkdf-instagram-feed.mkdf-instagram-carousel li a {
+  position: relative;
+  display: block;
+  height: 100%;
+}
+
+/* ==========================================================================
+   Instagram widget style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../../../../plugins/powerlift-instagram-feed/assets/css/widget-map.css.map */
